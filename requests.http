@@ -1,0 +1,28 @@
+GET https://jamezuki-express-users.herokuapp.com/users
+
+###
+
+GET https://jamezuki-express-users.herokuapp.com/users/612979356fecf95a6595bded
+
+###
+
+POST https://jamezuki-express-users.herokuapp.com/users
+content-type: application/json
+
+{
+    "email": "jamezuki@gmail.com",
+    "password": "password"
+}
+
+###
+
+PATCH https://jamezuki-express-users.herokuapp.com/users/6128179c1bcdf3d364c3f0c0
+content-type: application/json
+
+{
+    "password": "12345"
+}
+
+###
+
+DELETE https://jamezuki-express-users.herokuapp.com/users/6128179c1bcdf3d364c3f0c0
